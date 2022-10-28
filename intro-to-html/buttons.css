@@ -1,0 +1,88 @@
+.subscribe-button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+
+}
+
+.subscribe-button:hover{
+  opacity: 0.8;
+
+}
+
+.subscribe-button:active{
+  opacity: 0.5;
+
+}
+
+
+.join-button{
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 2px;
+  color: rgb(41, 118, 211);
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: background-color 0.5s,color 0.5s;
+  vertical-align: top;
+}
+
+.join-button:hover{
+  background-color: rgb(41, 118, 211);
+  color: white;
+  
+}
+
+.join-button:active{
+  opacity: 0.7;
+
+}
+
+.Tweet-button{
+  background-color: #1d9bf0;
+  border-color: #1d9bf0;
+  border-style: solid;
+  color: white;
+  height: 33px;
+  width: 68px;
+  font-size: 14px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+  vertical-align: auto;
+
+}
+
+.Tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.github{
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border-color: rgb(46, 164, 79);
+  border-style: solid;
+  border-width: 2px;
+  height: 32px;
+  width: 72px;
+  font-size: 13px;
+  margin-left: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+  vertical-align: auto;
+  
+}
